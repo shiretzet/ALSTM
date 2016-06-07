@@ -6,7 +6,7 @@ input : "May the force be with you"
 
 output : "force is with you"
 
-``` python
+```
 Fitting...
 
 Epoch 1/1000
