@@ -67,6 +67,6 @@ model.fit(Xtrain,Ytrain, nb_epoch=1000)
 p = model.predict(Xtrain)
 res = ''
 for c in p[0]:
-    res += int2char[int(np.argmax(c))]
+    res += int2char[int(np.argmax(c))] if int2char[int(np.argmax(c))]!=EOS else ''
 
 print(res)
